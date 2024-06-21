@@ -57,7 +57,21 @@ function addSteamLink(link) {
 
     if (subelement !== null) {
         let subtitleElement = subelement.querySelector('p.mb-0.subtitle-text');
-        subtitleElement.innerHTML += ` and <a href="${link}" target="_blank">Steam <img width="20px" src="https://store.steampowered.com/favicon.ico"></a>`;
+
+        let anchor = document.createElement('a');
+        anchor.href = encodeURI(link); 
+        anchor.target = "_blank";
+        anchor.innerHTML = 'Steam ';
+    
+        let img = document.createElement('img');
+        img.src = "https://store.steampowered.com/favicon.ico";
+        img.width = 20;
+        anchor.appendChild(img);
+    
+        let textNode = document.createTextNode(' and ');
+
+        subtitleElement.appendChild(textNode);
+        subtitleElement.appendChild(anchor);
     }
 }
 

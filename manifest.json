@@ -13,6 +13,14 @@
       "matches": ["https://*.backloggd.com/games/*"],
       "js": ["script.js"]
     }
-  ]
+  ],
+
+  "browser_specific_settings": {
+  "gecko": {
+    "id": "steamForBacklogged@cowokie",
+    "strict_min_version": "48.0"
+  }
+}
+
 
 }
