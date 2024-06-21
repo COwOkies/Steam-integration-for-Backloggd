@@ -5,6 +5,7 @@
   "name": "Steam integration for Backloggd",
   "version": "1.0",
   "homepage_url": "https://github.com/COwOkies/Steam-integration-for-Backloggd",
+  "update_url": "https://github.com/COwOkies/Steam-integration-for-Backloggd/releases/download/builds/Steam-page-backloggd.zip",
   "icons": {
     "48": "icons/logo-48.png"
   },
@@ -20,6 +21,8 @@
     "id": "steamForBacklogged@cowokie",
     "strict_min_version": "48.0"
   }
+
+  
 }
 
 

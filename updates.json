@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "steamForBacklogged@cowokie": {
+      "updates": [
+        {
+          "version": "1.0",
+          "update_link": "https://github.com/COwOkies/Steam-integration-for-Backloggd/releases/download/builds/Steam-page-backloggd.zip"
+        }
+      ]
+    }
+  }
+}
