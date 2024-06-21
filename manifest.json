@@ -1,11 +1,9 @@
 {
-
   "description": "Firefox extension that adds the steam links of a game to the backloggd website.",
   "manifest_version": 3,
   "name": "Steam integration for Backloggd",
   "version": "1.0",
   "homepage_url": "https://github.com/COwOkies/Steam-integration-for-Backloggd",
-  "update_url": "https://github.com/COwOkies/Steam-integration-for-Backloggd/releases/download/builds/Steam-page-backloggd.zip",
   "icons": {
     "48": "icons/logo-48.png"
   },
@@ -15,15 +13,10 @@
       "js": ["script.js"]
     }
   ],
-
   "browser_specific_settings": {
-  "gecko": {
-    "id": "steamForBacklogged@cowokie",
-    "strict_min_version": "48.0"
+    "gecko": {
+      "id": "steamForBacklogged@cowokie",
+      "strict_min_version": "48.0"
+    }
   }
-
-  
-}
-
-
 }
